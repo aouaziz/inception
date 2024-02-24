@@ -14,4 +14,4 @@ stop :
 start : 
 	docker-compose -f ./srcs/docker-compose.yml start
 
-re: stop down up
+re:down up

@@ -12,4 +12,4 @@ mariadb -e "FLUSH PRIVILEGES;"
 
 service mariadb stop;
 
-exec mysqld_safe
+mysqld_safe
